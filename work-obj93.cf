@@ -1,0 +1,13 @@
+v 4
+file . "control_unit.vhd" "bcadb37d1d6bfccd1ecf92d2fb318a0a5b619085" "20220315094813.295":
+  entity control_unit at 4( 82) + 0 on 75;
+  architecture beh of control_unit at 30( 713) + 0 on 76;
+file . "datapath2.vhd" "91f0e7c3a2d4fb9252e8c5d5284098214e525827" "20220315094813.308":
+  entity datapath at 7( 146) + 0 on 77;
+  architecture behavior of datapath at 36( 884) + 0 on 78;
+file . "tb_processeur.vhd" "366fce694f054b2b0691c40ae5bb5bf34d0a850d" "20220315094813.284":
+  entity tb_processeur at 8( 218) + 0 on 73;
+  architecture test of tb_processeur at 15( 339) + 0 on 74;
+file . "processeur.vhd" "4a36ab42b8251717f334c3e05a4b313e500c1ac3" "20220315094813.330":
+  entity processeur at 4( 100) + 0 on 79;
+  architecture struct of processeur at 20( 539) + 0 on 80;
